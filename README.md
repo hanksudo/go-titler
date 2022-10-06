@@ -18,12 +18,13 @@ go get github.com/hanksudo/gotitler
 
 ```bash
 gotitler https://github.com
+gotitler github.com
 ```
 
 The content below will auto copied to your clipboard:
 
 ```bash
-- [GitHub · Build software better, together.](https://github.com)
+- [GitHub: Where the world builds software · GitHub](https://github.com/)
 ```
 
 Rendered in Markdown
