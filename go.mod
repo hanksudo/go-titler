@@ -1,4 +1,4 @@
-module gotitler
+module github.com/hanksudo/gotitler
 
 go 1.19
 
