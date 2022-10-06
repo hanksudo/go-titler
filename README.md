@@ -11,7 +11,7 @@ Auto copy title and link as markdown to clipboard
 ## Installation
 
 ```bash
-go get github.com/hanksudo/gotitler
+go install github.com/hanksudo/gotitler
 ```
 
 ## Usage
