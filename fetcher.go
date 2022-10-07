@@ -8,7 +8,7 @@ import (
 )
 
 func Fetch(url string) *http.Response {
-	if !(strings.HasPrefix(url, "http://") && strings.HasPrefix(url, "https://")) {
+	if !(strings.HasPrefix(url, "http://") || strings.HasPrefix(url, "https://")) {
 		url = fmt.Sprintf("http://%s", url)
 	}
 	res, err := http.Get(url)
